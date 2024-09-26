@@ -1,0 +1,30 @@
+.globalgradient {
+  background: radial-gradient(
+    circle at 49% 38%,
+    rgba(0, 24, 78, 1) 0%,
+    #001137 0%,
+    rgb(0, 10, 25) 56%
+  );
+}
+/* Base styles for modal */
+.modal-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+.modal-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 300ms ease-out, transform 300ms ease-out;
+}
+
+.modal-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.modal-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms ease-in, transform 300ms ease-in;
+}

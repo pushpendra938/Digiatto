@@ -1,0 +1,15 @@
+.gradient {
+  background: radial-gradient(
+    circle at 88% 30%,
+    rgba(0, 24, 78, 1) 0%,
+    rgb(0, 8, 25) 36%
+  );
+}
+
+.modalBoxBg {
+  background: radial-gradient(
+    circle at 99% 0%,
+    rgba(13, 21, 88, 1) 13%,
+    rgba(3, 18, 49, 1) 74%
+  );
+}
