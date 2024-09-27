@@ -2,7 +2,7 @@
   {
     "_id": "1",
     "category": "Entertainment",
-    "image": "/src/assets/dynamic assets/Rummy.png",
+    "image": "https://res.cloudinary.com/dgeovh0m5/image/upload/v1727443312/Rummy_mxiw6u.jpg",
     "title": "Real Rummy ",
     "subtitle": "Deal Yourself Into Exhilaeation",
     "description": "Dive into Real Rummy, where strategy meets excitement. Play against others in a user-friendly platform designed for both seasoned players and newcomers. Join now for thrilling gameplay and endless fun!"
@@ -10,7 +10,7 @@
   {
     "_id": "2",
     "category": "Beauty & Wellness",
-    "image": "/src/assets/dynamic assets/Goodvibes.png",
+    "image": "https://res.cloudinary.com/dgeovh0m5/image/upload/v1727443369/Goodvibes_ybjeov.jpg",
     "title": "Good Vibes ",
     "subtitle": "A Luxurious App for the Beauty Experience",
     "description": "Discover Good Vibes, a luxurious app designed to elevate your beauty experience with curated products and expert tips. Indulge in self-care and find your perfect beauty routine!"
@@ -18,7 +18,7 @@
   {
     "_id": "3",
     "category": "Home Care Appliances",
-    "image": "/src/assets/dynamic assets/virtuecare.jfif",
+    "image": "https://res.cloudinary.com/dgeovh0m5/image/upload/v1727443387/virtuecare_znzkax.jpg",
     "title": "virtue Care",
     "subtitle": "Home Care Appliances",
     "description": "Explore Virtue Care, your go-to source for innovative home care appliances designed to enhance your daily living. Experience convenience and quality in every product!"
@@ -26,7 +26,7 @@
   {
     "_id": "4",
     "category": "Travel & Tourism",
-    "image": "/src/assets/dynamic assets/Turkey.png",
+    "image": "https://res.cloudinary.com/dgeovh0m5/image/upload/v1727443380/Turkey_wffaod.jpg",
     "title": "Tourism Of Turkiya",
     "subtitle": "Travel Industries",
     "description": "Discover the wonders of Turkiya with our comprehensive travel guide. Explore stunning destinations, rich culture, and unforgettable experiences in the heart of this vibrant country!"
@@ -34,7 +34,7 @@
   {
     "_id": "5",
     "category": "Pet Care & Wellness",
-    "image": "/src/assets/dynamic assets/virtuecare.jfif",
+    "image": "https://res.cloudinary.com/dgeovh0m5/image/upload/v1727443387/virtuecare_znzkax.jpg",
     "title": "PawParadise Retreat",
     "subtitle": "Healthe-Care",
     "description": "Welcome to PawParadise Retreat, where your furry friends receive top-notch health and wellness care. Experience a relaxing environment tailored for pets, ensuring they are happy and healthy!"
@@ -42,7 +42,7 @@
   {
     "_id": "6",
     "category": "Education & Learning",
-    "image": "/src/assets/dynamic assets/Rigorous.png",
+    "image": "https://res.cloudinary.com/dgeovh0m5/image/upload/v1727443373/Rigorous_opbphh.jpg",
     "title": "Rigorous Education",
     "subtitle": "Education",
     "description": "Unlock your potential with Rigorous Education, offering a diverse range of courses and resources designed to empower learners of all ages. Achieve your academic goals with us!"
