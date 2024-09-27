@@ -6,9 +6,8 @@ import Drop from "../components/common/Dropform"
 function ContactUs() {
 
     // India
-    const indiaLatitude = 22.743995651101965;
-    const IndiaLongitude = 75.89415162004252;
-
+    const indiaLatitude = 22.718821427352744;
+    const IndiaLongitude = 75.86726553463755;
     const indiaDirection = () => {
         const mapUrl = `https://www.google.com/maps?q=${indiaLatitude},${IndiaLongitude}`;
         window.open(mapUrl, '_blank');
@@ -38,7 +37,7 @@ function ContactUs() {
                                 <h3 className="xl:text-[25px] md:text-[20px] text-[19px] leading-5 pb-2">Email us</h3>
                                 <p className="xl:text-[15px] md:text-[13px] text-[11px] md:pb-[10px] md:leading-5 leading-4">Please feel free to drop us a line. We will respond as soon as possible.</p>
                                 <div className="inline-block">
-                                    <a className="flex gap-1 text-blue-700 xl:text-[16px] md:text-[12px] text-[11px]" href="mailto:info@digiatto.com">Leave a message <FaArrowRight className="xl:h-3.5 md:h-2.5 h-3 xl:w-3.5 md:w-2.5 w-2  md:mt-1.5 mt-1 fill-blue-700" /></a>
+                                    <a className="flex gap-1 text-blue-700 xl:text-[16px] md:text-[12px] text-[11px]" href="mailto:example.com">Leave a message <FaArrowRight className="xl:h-3.5 md:h-2.5 h-3 xl:w-3.5 md:w-2.5 w-2  md:mt-1.5 mt-1 fill-blue-700" /></a>
                                 </div>
                             </div>
                         </div>
@@ -50,7 +49,7 @@ function ContactUs() {
                                 <h3 className="xl:text-[25px] md:text-[20px] text-[19px] leading-5 pb-2">Call us</h3>
                                 <p className="xl:text-[15px] md:text-[13px] text-[11px] md:pb-[10px] md:leading-5 leading-4">If you need immediate assistance feel free to call us.</p>
                                 <div className="inline-block">
-                                    <a className="flex gap-1 text-blue-700 xl:text-[16px] md:text-[12px] text-[11px]" href={`tel:${"+91 81096 07075"}`}>{"+91 81096 07075"}</a>
+                                    <a className="flex gap-1 text-blue-700 xl:text-[16px] md:text-[12px] text-[11px]" href={`tel:${"+91 0123456789"}`}>{"+91 0123456789"}</a>
                                 </div>
                             </div>
                         </div>
@@ -61,7 +60,7 @@ function ContactUs() {
                             </div>
                             <div className="max-w-[90%]">
                                 <h3 className="xl:text-[25px] md:text-[20px] text-[19px] leading-5 pb-2">Visit us (India)</h3>
-                                <p className="xl:text-[15px] md:text-[13px] text-[11px] md:pb-[10px] md:leading-5 leading-4">Plot Number 109-110 PU4, Scheme Number 54, behind C21 Mall, Vijay Nagar, Indore, Madhya Pradesh 452010</p>
+                                <p className="xl:text-[15px] md:text-[13px] text-[11px] md:pb-[10px] md:leading-5 leading-4"> Indore, Madhya Pradesh 452010</p>
                                 <div className="inline-block">
                                     <a onClick={indiaDirection} className="flex gap-1 text-blue-700 xl:text-[16px] md:text-[12px] text-[11px]" href="">Get Directions <FaArrowRight className="xl:h-3.5 md:h-2.5 h-3 xl:w-3.5 md:w-2.5 w-2  md:mt-1.5 mt-1 fill-blue-700" /></a>
                                 </div>
@@ -73,7 +72,7 @@ function ContactUs() {
                             </div>
                             <div className="max-w-[90%]">
                                 <h3 className="xl:text-[25px] md:text-[20px] text-[19px] leading-5 pb-2 ">Visit us (United Kingdom)</h3>
-                                <p className="xl:text-[15px] md:text-[13px] text-[11px] md:pb-[10px] md:leading-5 leading-4">36C Birley Moor Rd, Sheffield S12 4WD, UK</p>
+                                <p className="xl:text-[15px] md:text-[13px] text-[11px] md:pb-[10px] md:leading-5 leading-4">United Kingdom</p>
                                 <div className="inline-block">
                                     <a onClick={ukDirection} className="flex gap-1 text-blue-700 xl:text-[16px] md:text-[12px] text-[11px]" href="">Get Directions <FaArrowRight className="xl:h-3.5 md:h-2.5 h-3 xl:w-3.5 md:w-2.5 w-2  md:mt-1.5 mt-1 fill-blue-700" /></a>
                                 </div>
@@ -81,7 +80,13 @@ function ContactUs() {
                         </div>
                     </div>
                     <div>
-                        <iframe className="w-full h-full min-h-[350px]" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.5772432680583!2d75.89157507502054!3d22.743949526668903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fdcc4d30a1cf%3A0xf69ae3bde14853a8!2sTechpanda%20IT%20Services!5e0!3m2!1sen!2sin!4v1724764473454!5m2!1sen!2sin" width={600} height={450} style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" /></div>
+                        <iframe className="w-full h-full min-h-[350px]" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d140041.7533791832!2d75.7723110894464!3d22.727534696850732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fcad1b410ddb%3A0x96ec4da356240f4!2sIndore%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1727437146710!5m2!1sen!2sin" width={600} height={450} style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+
+
+
+
+
+                    </div>
                 </div>
             </div>
             <Drop />

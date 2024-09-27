@@ -1,30 +1,14 @@
 import { FiArrowUpRight } from 'react-icons/fi'
 import { IoArrowForwardCircle } from 'react-icons/io5'
-import { useEffect, useState } from 'react';
 import "./Ourproject.css"
 import { Link, useNavigate } from "react-router-dom";
-import axios from 'axios';
+import project from "../../json/projectData.json"
 
 function Ourproject() {
     const navigate = useNavigate()
     const gotToNewPage = () => {
         navigate("/portfolio");
     }
-    const [project, setProject] = useState([])
-    const fetchData = async () => {
-        try {
-            const res = await axios.get("https://digiatto.onrender.com/project")
-            const limitedData = res.data.slice(0, 6);
-            setProject(limitedData);
-        }
-        catch (error) {
-            console.log('Error', error.message);
-        }
-    };
-
-    useEffect(() => {
-        fetchData();
-    }, []);
 
     return (
         <>

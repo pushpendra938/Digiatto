@@ -8,7 +8,7 @@ import goalimg3 from "../assets/coding.webp"
 import Slider from "react-slick";
 import axios from "axios";
 import { useEffect, useState } from "react";
-
+import projectData from "../json/projectData.json"
 function Innerportfolio() {
     // slider 
     var settings = {
@@ -27,31 +27,39 @@ function Innerportfolio() {
         navigate(-1);
     }
 
-    const id = useParams()
-    const DataId = id.id;
+    const { id } = useParams();
+    const project = projectData.find(item => item._id === id); // Find the project by ID
+
+    if (!project) {
+        return <p>Project not found!</p>;
+    }
 
 
-    const [project, setProject] = useState('')
-
-    const fetchData = async () => {
-        try {
-            const res = await axios.get(`https://digiatto.onrender.com/project/${DataId}`)
-            const limitedData = res.data;
-            setProject(limitedData);
-            console.log("limitedData", limitedData)
-
-        }
-        catch (error) {
-            console.log('Error', error.message);
-        }
-
-    };
-    console.log(project);
+    // const id = useParams()
+    // const DataId = id.id;
 
 
-    useEffect(() => {
-        fetchData()
-    }, [])
+    // const [project, setProject] = useState('')
+
+    // const fetchData = async () => {
+    //     try {
+    //         const res = await axios.get(`https://digiatto.onrender.com/project/${DataId}`)
+    //         const limitedData = res.data;
+    //         setProject(limitedData);
+    //         console.log("limitedData", limitedData)
+
+    //     }
+    //     catch (error) {
+    //         console.log('Error', error.message);
+    //     }
+
+    // };
+    // console.log(project);
+
+
+    // useEffect(() => {
+    //     fetchData()
+    // }, [])
     return (
         <>
 

@@ -1,10 +1,11 @@
 
 
 import { FiArrowUpRight } from 'react-icons/fi';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { Link } from "react-router-dom";
-import axios from 'axios';
+// import axios from 'axios';
 import "./Work.css"
+import work from "../../json/projectData.json"
 
 function Work() {
     // const navigate = useNavigate();
@@ -13,17 +14,17 @@ function Work() {
     //     navigate("/innerportfolio");
     // };
 
-    const [work, setWork] = useState([]);
+    // const [work, setWork] = useState([]);
     const [visibleCount, setVisibleCount] = useState(2);
 
-    const fetchData = async () => {
-        try {
-            const res = await axios.get("https://digiatto.onrender.com/project");
-            setWork(res.data);
-        } catch (error) {
-            console.log('Error', error.message);
-        }
-    };
+    // const fetchData = async () => {
+    //     try {
+    //         const res = await axios.get("https://digiatto.onrender.com/project");
+    //         setWork(res.data);
+    //     } catch (error) {
+    //         console.log('Error', error.message);
+    //     }
+    // };
 
     const handleShowMore = () => {
         setVisibleCount((prevCount) => Math.min(prevCount + 3, work.length));
@@ -36,9 +37,9 @@ function Work() {
     // Determine the number of cards to show
     const displayedWork = work.slice(0, visibleCount);
 
-    useEffect(() => {
-        fetchData();
-    }, []);
+    // useEffect(() => {
+    //     fetchData();
+    // }, []);
 
     return (
         <>
@@ -119,7 +120,7 @@ function Work() {
                         </button>
                     )}
                 </div>
-            </div >
+            </div>
         </>
     );
 }

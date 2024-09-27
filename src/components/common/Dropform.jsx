@@ -43,7 +43,7 @@ function Dropform() {
                                     </div>
                                     <div className="sm:pl-[20px] text-[10px] sm:text-[14px] pl-[15px] font-semibold	">
                                         <p>To More Inquiry</p>
-                                        <a className="text-[#FDB61B]" href={`tel:${"+91 81096 07075"}`}>{"+91 81096 07075"}</a>
+                                        <a className="text-[#FDB61B]" href={`tel:${"+91 0123456789"}`}>{"+91 0123456789"}</a>
                                     </div>
                                 </div>
                                 <div className="pt-[15px] sm:pt-[30px] flex">
@@ -51,7 +51,7 @@ function Dropform() {
                                     </div>
                                     <div className="sm:pl-[20px] text-[10px] sm:text-[14px] pl-[15px] font-semibold">
                                         <p>To Send Mail</p>
-                                        <a className="text-[#FDB61B]" href="mailto:info@digiatto.com">info@digiatto.com</a>
+                                        <a className="text-[#FDB61B]" href="example.com">example.com</a>
                                     </div>
                                 </div>
                             </div>
