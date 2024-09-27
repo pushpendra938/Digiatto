@@ -21,7 +21,8 @@ function WeAreExperts() {
 
                                 <h1 id="" className="topMainHeading xl:pt-[40px] lg:pt-[25px] pt-[15px]">We Develop<span className="font-black topMainHeading text-[#013DC4]  text-transparent  bg-clip-text bg-gradient-to-r from-[#013DC4] to-[#0034A7] "> Creative</span><br />Website For Your Business</h1>
 
-                                <p className="place-self-center sm:text-[11px] text-[9px]  tracking-wider xl:pt-[20px] lg:pt-[10px] pt-[5px] pb-[10px] sm:max-w-[600px] max-w-[350px] leading-3 sm:leading-4 xl:leading-5 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in.</p>
+                                <p className="place-self-center sm:text-[11px] text-[9px]  tracking-wider xl:pt-[20px] lg:pt-[10px] pt-[5px] pb-[10px] sm:max-w-[600px] max-w-[350px] leading-3 sm:leading-4 xl:leading-5 ">We specialize in crafting innovative websites tailored to elevate your business. We focus on creating visually stunning, user-friendly websites that not only attract visitors but also convert them into loyal customers. From e-commerce platforms to portfolio sites, we leverage the latest technologies and trends to ensure your online presence stands out.  Let us help you turn your ideas into reality and take your business to new heights!
+                                </p>
 
                                 <div className="slide-in-elliptic-top-fwd  mx-auto xl:pt-[30px] lg:pt-[20px] pt-[10px] flex justify-center items-center ">
                                     <button

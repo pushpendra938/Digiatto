@@ -52,14 +52,14 @@ function Technologies() {
                                         <img src={item.image} alt="" className=" place-self-center h-auto w-[100%] rounded-lg " />
                                     </div>
                                 </div>
-                                <div>
+                                <div className='grid gap-3'>
                                     {
                                         !item.languages ? <></> : <> <div className="text-start pt-[20px] lg:pt-[0px] pb-[3px] lg:pb-[0px]  lg:text-[20px]  text-[13px] lg:leading-9 leading-7 ]">
                                             <div className='flex gap-5 '>
-                                                <h5 className="w-[100%]">language</h5>
+                                                <h5 className="">language</h5>
                                                 {item.languages.map((item, index) => (
                                                     <div className="flex" key={index + 1}>
-                                                        <img src={item.logo} alt="" className="self-center lg:w-[30%] lg:h-[40%] w-[20%] h-[20%]" />
+                                                        <img src={item.logo} alt="" className="self-center lg:w-[25px] lg:h-[25px] w-[15px] h-[15px]" />
                                                     </div>
                                                 ))}
                                             </div>
@@ -71,7 +71,7 @@ function Technologies() {
                                                 <h5 className="">database</h5>
                                                 {item.database.map((item, index) => (
                                                     <div className="flex" key={index + 1}>
-                                                        <img src={item.logo} alt="" className="self-center lg:w-[30%] lg:h-[40%] w-[20%] h-[20%]" />
+                                                        <img src={item.logo} alt="" className="self-center lg:w-[25px] lg:h-[25px] w-[15px] h-[15px]" />
                                                     </div>
                                                 ))}
                                             </div>
@@ -83,7 +83,7 @@ function Technologies() {
                                                 <h5 className="">sdk</h5>
                                                 {item.sdk.map((item, index) => (
                                                     <div className="flex" key={index + 1}>
-                                                        <img src={item.logo} alt="" className="self-center lg:w-[30%] lg:h-[40%] w-[20%] h-[20%]" />
+                                                        <img src={item.logo} alt="" className="self-center lg:w-[25px] lg:h-[25px] w-[15px] h-[15px]" />
                                                     </div>
                                                 ))}
                                             </div>
@@ -95,7 +95,7 @@ function Technologies() {
                                                 <h5 className="">tools</h5>
                                                 {item.tools.map((item, index) => (
                                                     <div className="flex" key={index + 1}>
-                                                        <img src={item.logo} alt="" className="self-center lg:w-[30%] lg:h-[40%] w-[20%] h-[20%]" />
+                                                        <img src={item.logo} alt="" className="self-center lg:w-[25px] lg:h-[25px] w-[15px] h-[15px]" />
                                                     </div>
                                                 ))}
                                             </div>
