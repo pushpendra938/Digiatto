@@ -31,11 +31,11 @@ Follow these steps to clone the repository, install the necessary Node modules, 
    Open your terminal and run:
    ```bash
    git clone https://github.com/pushpendra938/Digiatto.git
-2.  **Navigate to the Project Directory: Change into the project directory:** <br>
- -cd Digiatto
-3.  **Install Node Modules: Run the following command to install the required dependencies:** <br>
- -cd npm install
-3.  **Start the Development Server: Use the following command to start the Vite development server:** <br>
- -cd npm run dev
+2.  **Navigate to the Project Directory: Change into the project directory:** 
+ - cd Digiatto
+3.  **Install Node Modules: Run the following command to install the required dependencies:** 
+ - npm install
+3.  **Start the Development Server: Use the following command to start the Vite development server:** 
+ - npm run dev
 
 
